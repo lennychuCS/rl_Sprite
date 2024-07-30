@@ -9,7 +9,9 @@ from util.vec import Vec3
 intialize_flip = False
 flip_frame = 0
 
-class PythonExample(BaseAgent):
+# https://python-statemachine.readthedocs.io/en/latest/readme.html
+
+class RLSprite(BaseAgent):
 
 	def initialize_agent(self):
 		# This runs once before the bot starts up
